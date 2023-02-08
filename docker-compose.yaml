@@ -5,8 +5,8 @@ services:
       context: .
       dockerfile: Dockerfile
     volumes:
-      - ./reactApp:/usr/src/app
-    command: sh -c "cd react-sample && yarn start"
+      - ./react-tutorial:/usr/src/app
+    command: sh -c "yarn install && yarn start"
     ports:
-      - "3001:3000"
+      - "3000:3000"
     stdin_open: true
