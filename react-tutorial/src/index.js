@@ -120,7 +120,7 @@ class Game extends React.Component {
   }
 }
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
+const root = ReactDOM.createRoot(document.getElementById("root"));// react18から推奨のroot.renderの書き方。
 root.render(<Game />);
 
 function calculateWinner(squares) {
