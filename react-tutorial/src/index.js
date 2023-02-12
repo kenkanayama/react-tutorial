@@ -80,7 +80,7 @@ class Game extends React.Component {
   }
 
   render() {
-    const history = this.state.history;
+    const history = this.state.history;// state管理している現在のhistoryを取得（すべての入力記録が入っているもの）（2次元配列ぽい構成）
     const current = history[this.state.stepNumber];
     const winner = calculateWinner(current.squares);
 
