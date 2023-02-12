@@ -3,3 +3,7 @@
 https://ja.reactjs.org/tutorial/tutorial.html#inspecting-the-starter-code
 
 まだまだわからないことだらけ。
+
+>docker-compose build --no-cache
+
+>docker-compose up --build

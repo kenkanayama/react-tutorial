@@ -105,7 +105,6 @@ class Game extends React.Component {
       <div className="game">
         <div className="game-board">
           {this.state.stepNumber}
-          {this.state.history}
           <Board
             squares={current.squares}
             onClick={(i) => this.handleClick(i)}
